@@ -1,0 +1,1314 @@
+[
+  {
+    "title": "PANDORA PARADOXXX",
+    "ruby": "PANDORA PARADOXXX",
+    "artist": "削除",
+    "category": "maimai",
+    "type": "std",
+    "version": "FiNALE",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/35b2760a42a8eebe.png",
+    "constants": {
+      "basic": null,
+      "advanced": 11.5,
+      "expert": 13.9,
+      "master": 14.9,
+      "remaster": 15.0
+    }
+  },
+  {
+    "title": "系ぎて",
+    "ruby": "つなぎて",
+    "artist": "rintaro soma",
+    "category": "maimai",
+    "type": "dx",
+    "version": "BUDDiES",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/1ace9e4612c5e020.png",
+    "constants": {
+      "basic": 7.0,
+      "advanced": 10.5,
+      "expert": 13.8,
+      "master": 14.7,
+      "remaster": 15.0
+    }
+  },
+  {
+    "title": "Xaleid◆scopiX",
+    "ruby": "Xaleid◆scopiX",
+    "artist": "xi",
+    "category": "maimai",
+    "type": "dx",
+    "version": "PRiSM PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/7bf12d9c7382a32c.png",
+    "constants": {
+      "basic": null,
+      "advanced": 11.0,
+      "expert": 13.9,
+      "master": 14.9,
+      "remaster": 15.0
+    }
+  },
+  {
+    "title": "QZKago Requiem",
+    "ruby": "QZKago Requiem",
+    "artist": "t+pazolite",
+    "category": "maimai",
+    "type": "std",
+    "version": "FiNALE",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/5c4531323f4aadcf.png",
+    "constants": {
+      "basic": 7.0,
+      "advanced": 10.7,
+      "expert": 13.0,
+      "master": 14.8,
+      "remaster": 14.9
+    }
+  },
+  {
+    "title": "Schwarzschild",
+    "ruby": "Schwarzschild",
+    "artist": "Tsukasa",
+    "category": "maimai",
+    "type": "std",
+    "version": "FiNALE",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/2454ef7c65d00f77.png",
+    "constants": {
+      "basic": 7.0,
+      "advanced": 9.7,
+      "expert": 12.9,
+      "master": 14.3,
+      "remaster": 14.9
+    }
+  },
+  {
+    "title": "the EmpErroR",
+    "ruby": "the EmpErroR",
+    "artist": "sasakure.UK",
+    "category": "maimai",
+    "type": "std",
+    "version": "FiNALE",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/e5a64880bc872e8b.png",
+    "constants": {
+      "basic": 5.0,
+      "advanced": 10.6,
+      "expert": 13.4,
+      "master": 14.8,
+      "remaster": 14.9
+    }
+  },
+  {
+    "title": "躯樹の墓守",
+    "ruby": "むくろじゅのはかもり",
+    "artist": "隣の庭は青い(庭師+Aoi)",
+    "category": "maimai",
+    "type": "dx",
+    "version": "UNiVERSE",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/55a2c29fef3811ad.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 13.0,
+      "master": 14.9,
+      "remaster": null
+    }
+  },
+  {
+    "title": "sølips",
+    "ruby": "sølips",
+    "artist": "rintaro soma",
+    "category": "maimai",
+    "type": "dx",
+    "version": "UNiVERSE PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/8043243d47cacaee.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 13.7,
+      "master": 14.9,
+      "remaster": null
+    }
+  },
+  {
+    "title": "World's end loneliness",
+    "ruby": "World's end loneliness",
+    "artist": "打打だいず",
+    "category": "maimai",
+    "type": "dx",
+    "version": "UNiVERSE PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/e341ba3d5adb60dd.png",
+    "constants": {
+      "basic": 7.0,
+      "advanced": null,
+      "expert": 13.0,
+      "master": 14.9,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Latent Kingdom",
+    "ruby": "Latent Kingdom",
+    "artist": "大国奏音",
+    "category": "maimai",
+    "type": "dx",
+    "version": "BUDDiES",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/2079d8ee35e28e4d.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 12.8,
+      "master": 14.9,
+      "remaster": null
+    }
+  },
+  {
+    "title": "raputa",
+    "ruby": "raputa",
+    "artist": "sasakure.UK × TJ.hangneil",
+    "category": "maimai",
+    "type": "dx",
+    "version": "BUDDiES",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/486d317c19a52fd5.png",
+    "constants": {
+      "basic": 7.0,
+      "advanced": 8.7,
+      "expert": 13.7,
+      "master": 14.9,
+      "remaster": null
+    }
+  },
+  {
+    "title": "宙天",
+    "ruby": "ちゅうてん",
+    "artist": "t+pazolite vs かねこちはる",
+    "category": "maimai",
+    "type": "dx",
+    "version": "PRiSM",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/92fed24b2755bbb4.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 13.5,
+      "master": 14.9,
+      "remaster": null
+    }
+  },
+  {
+    "title": "World's end BLACKBOX",
+    "ruby": "World's end BLACKBOX",
+    "artist": "打打だいず",
+    "category": "maimai",
+    "type": "dx",
+    "version": "PRiSM PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/4f8dd5d9c721b249.png",
+    "constants": {
+      "basic": null,
+      "advanced": 10.5,
+      "expert": 13.1,
+      "master": 14.9,
+      "remaster": null
+    }
+  },
+  {
+    "title": "7 Wonders",
+    "ruby": "7 Wonders",
+    "artist": "削除",
+    "category": "maimai",
+    "type": "dx",
+    "version": "CiRCLE",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/3119002860e5eca8.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 12.8,
+      "master": 14.9,
+      "remaster": null
+    }
+  },
+  {
+    "title": "In Chaos",
+    "ruby": "In Chaos",
+    "artist": "Hiro「Crackin’DJ」",
+    "category": "game-variety",
+    "type": "std",
+    "version": "maimai",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/a044abc0c8fca1cf.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 9.7,
+      "master": 12.5,
+      "remaster": 14.8
+    }
+  },
+  {
+    "title": "Garakuta Doll Play",
+    "ruby": "Garakuta Doll Play",
+    "artist": "t+pazolite",
+    "category": "maimai",
+    "type": "std",
+    "version": "GreeN",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/a259af51e0b9d863.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": 9.0,
+      "expert": 13.1,
+      "master": 14.2,
+      "remaster": 14.8
+    }
+  },
+  {
+    "title": "Glorious Crown",
+    "ruby": "Glorious Crown",
+    "artist": "xi",
+    "category": "maimai",
+    "type": "std",
+    "version": "PiNK",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/0c142b42f0e37845.png",
+    "constants": {
+      "basic": 7.0,
+      "advanced": 10.5,
+      "expert": 13.2,
+      "master": 14.8,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Our Wrenally",
+    "ruby": "Our Wrenally",
+    "artist": "t+pazolite",
+    "category": "maimai",
+    "type": "std",
+    "version": "MURASAKi",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/cde51cc89f91dd8a.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 13.0,
+      "master": 14.8,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Excalibur ～Revived resolution～",
+    "ruby": "Excalibur ～Revived resolution～",
+    "artist": "Project Grimoire",
+    "category": "maimai",
+    "type": "std",
+    "version": "MiLK",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/75d7dea600e4b298.png",
+    "constants": {
+      "basic": 5.0,
+      "advanced": 10.3,
+      "expert": 13.0,
+      "master": 14.8,
+      "remaster": null
+    }
+  },
+  {
+    "title": "larva",
+    "ruby": "larva",
+    "artist": "ガリガリさむし",
+    "category": "maimai",
+    "type": "std",
+    "version": "MiLK PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/f233a82bddb1a450.png",
+    "constants": {
+      "basic": 7.0,
+      "advanced": null,
+      "expert": 12.9,
+      "master": 14.8,
+      "remaster": null
+    }
+  },
+  {
+    "title": "SILENT BLUE",
+    "ruby": "SILENT BLUE",
+    "artist": "かねこちはる",
+    "category": "maimai",
+    "type": "std",
+    "version": "MiLK PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/b80623d7b2aceb77.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 12.8,
+      "master": 14.8,
+      "remaster": null
+    }
+  },
+  {
+    "title": "怒槌",
+    "ruby": "いかずち",
+    "artist": "光吉猛修",
+    "category": "ongeki-chunithm",
+    "type": "std",
+    "version": "MiLK PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/cd9b3af41756ab53.png",
+    "constants": {
+      "basic": 7.0,
+      "advanced": null,
+      "expert": 13.3,
+      "master": 14.8,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Alea jacta est!",
+    "ruby": "Alea jacta est!",
+    "artist": "BlackY fused with WAiKURO",
+    "category": "maimai",
+    "type": "std",
+    "version": "FiNALE",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/60d2b1b662ae5823.png",
+    "constants": {
+      "basic": 7.0,
+      "advanced": null,
+      "expert": 12.9,
+      "master": 14.4,
+      "remaster": 14.8
+    }
+  },
+  {
+    "title": "雷切-RAIKIRI-",
+    "ruby": "らいきり-RAIKIRI-",
+    "artist": "kanone",
+    "category": "maimai",
+    "type": "std",
+    "version": "FiNALE",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/be3cf43e80e9462e.png",
+    "constants": {
+      "basic": 7.0,
+      "advanced": null,
+      "expert": 12.8,
+      "master": 14.6,
+      "remaster": 14.8
+    }
+  },
+  {
+    "title": "封焔の135秒",
+    "ruby": "ふうえんの135びょう",
+    "artist": "大国奏音",
+    "category": "maimai",
+    "type": "dx",
+    "version": "でらっくす PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/2985e6ee69db26de.png",
+    "constants": {
+      "basic": 5.0,
+      "advanced": null,
+      "expert": 12.7,
+      "master": 14.8,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Heavenly Blast",
+    "ruby": "Heavenly Blast",
+    "artist": "xi",
+    "category": "maimai",
+    "type": "dx",
+    "version": "Splash PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/b93bb5411292f1d8.png",
+    "constants": {
+      "basic": 5.0,
+      "advanced": 9.0,
+      "expert": 12.8,
+      "master": 14.8,
+      "remaster": null
+    }
+  },
+  {
+    "title": "チューリングの跡",
+    "ruby": "ちゅーりんぐのあと",
+    "artist": "Frums",
+    "category": "maimai",
+    "type": "dx",
+    "version": "UNiVERSE PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/6c38d19035bd1ea6.png",
+    "constants": {
+      "basic": 4.0,
+      "advanced": 8.0,
+      "expert": 13.5,
+      "master": 14.8,
+      "remaster": null
+    }
+  },
+  {
+    "title": "WiPE OUT MEMORIES",
+    "ruby": "WiPE OUT MEMORIES",
+    "artist": "t+pazolite",
+    "category": "maimai",
+    "type": "dx",
+    "version": "UNiVERSE PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/1a61a11a3b89420f.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 12.9,
+      "master": 14.8,
+      "remaster": null
+    }
+  },
+  {
+    "title": "VeRForTe αRtE:VEiN",
+    "ruby": "VeRForTe αRtE:VEiN",
+    "artist": "orangentle",
+    "category": "maimai",
+    "type": "dx",
+    "version": "FESTiVAL PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/5461cc48817a3c7a.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 12.9,
+      "master": 14.8,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Straight into the lights",
+    "ruby": "Straight into the lights",
+    "artist": "Cosmograph",
+    "category": "maimai",
+    "type": "dx",
+    "version": "BUDDiES",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/bb049831e2c0b573.png",
+    "constants": {
+      "basic": 4.0,
+      "advanced": null,
+      "expert": 12.5,
+      "master": 14.8,
+      "remaster": null
+    }
+  },
+  {
+    "title": "ℝ∈Χ LUNATiCA",
+    "ruby": "ℝ∈Χ LUNATiCA",
+    "artist": "Kai",
+    "category": "maimai",
+    "type": "dx",
+    "version": "BUDDiES PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/48447c3e67a26b08.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": 9.0,
+      "expert": 12.9,
+      "master": 14.8,
+      "remaster": null
+    }
+  },
+  {
+    "title": "氷滅の135小節",
+    "ruby": "ひょうめつの135しょうせつ",
+    "artist": "大国奏音",
+    "category": "maimai",
+    "type": "dx",
+    "version": "PRiSM",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/b28c21f0d14c6e26.png",
+    "constants": {
+      "basic": 7.0,
+      "advanced": null,
+      "expert": 13.4,
+      "master": 14.8,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Divide et impera!",
+    "ruby": "Divide et impera!",
+    "artist": "BlackY a.k.a. WAiKURO survive",
+    "category": "maimai",
+    "type": "dx",
+    "version": "PRiSM",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/b28c21f0d14c6e26.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": 8.0,
+      "expert": 12.9,
+      "master": 14.8,
+      "remaster": null
+    }
+  },
+  {
+    "title": "FLΛME/FRΦST",
+    "ruby": "FLΛME/FRΦST",
+    "artist": "FANTAGIRAFF",
+    "category": "maimai",
+    "type": "dx",
+    "version": "PRiSM PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/cd7dc8b9ec80cf06.png",
+    "constants": {
+      "basic": 5.0,
+      "advanced": 8.0,
+      "expert": 12.9,
+      "master": 14.8,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Customized Justice",
+    "ruby": "Customized Justice",
+    "artist": "Kobaryo",
+    "category": "maimai",
+    "type": "dx",
+    "version": "CiRCLE",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/9354ec1583e9ffbb.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 13.0,
+      "master": 14.8,
+      "remaster": null
+    }
+  },
+  {
+    "title": "False Amber (from the Black Bazaar, Or by A Kervan Trader from the Lands Afar, Or Buried Beneath the Shifting Sands That Lead Everywhere but Nowhere)",
+    "ruby": "False Amber (from the Black Bazaar, Or by A Kervan Trader from the Lands Afar, Or Buried Beneath the Shifting Sands That Lead Everywhere but Nowhere)",
+    "artist": "かめりあ",
+    "category": "maimai",
+    "type": "dx",
+    "version": "PRiSM",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/5745f4aa35faeedd.png",
+    "constants": {
+      "basic": 7.0,
+      "advanced": null,
+      "expert": 13.4,
+      "master": 14.8,
+      "remaster": null
+    }
+  },
+  {
+    "title": "ガラテアの螺旋",
+    "ruby": "がらてあのらせん",
+    "artist": "sasakure.UK",
+    "category": "maimai",
+    "type": "std",
+    "version": "ORANGE PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/0c110a5873857c5f.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 13.3,
+      "master": 14.6,
+      "remaster": 14.7
+    }
+  },
+  {
+    "title": "VERTeX",
+    "ruby": "VERTeX",
+    "artist": "Hiro「maimai」より",
+    "category": "maimai",
+    "type": "std",
+    "version": "ORANGE",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/23941430342ce007.png",
+    "constants": {
+      "basic": 5.0,
+      "advanced": null,
+      "expert": 11.9,
+      "master": 14.7,
+      "remaster": null
+    }
+  },
+  {
+    "title": "AMAZING MIGHTYYYY!!!!",
+    "ruby": "AMAZING MIGHTYYYY!!!!",
+    "artist": "WAiKURO",
+    "category": "maimai",
+    "type": "std",
+    "version": "PiNK PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/b642cd32bc38692a.png",
+    "constants": {
+      "basic": null,
+      "advanced": null,
+      "expert": 13.6,
+      "master": 14.7,
+      "remaster": 14.5
+    }
+  },
+  {
+    "title": "End Time",
+    "ruby": "End Time",
+    "artist": "Cres.",
+    "category": "game-variety",
+    "type": "std",
+    "version": "FiNALE",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/912135a524e81212.png",
+    "constants": {
+      "basic": 5.0,
+      "advanced": null,
+      "expert": 12.8,
+      "master": 14.7,
+      "remaster": null
+    }
+  },
+  {
+    "title": "VIIIbit Explorer",
+    "ruby": "VIIIbit Explorer",
+    "artist": "Lime",
+    "category": "maimai",
+    "type": "dx",
+    "version": "Splash PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/511f76bc9e72ec56.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 13.0,
+      "master": 14.7,
+      "remaster": null
+    }
+  },
+  {
+    "title": "TEmPTaTiON",
+    "ruby": "TEmPTaTiON",
+    "artist": "かねこちはる",
+    "category": "maimai",
+    "type": "dx",
+    "version": "でらっくす",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/492c768653001e2a.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 12.6,
+      "master": 14.7,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Valsqotch",
+    "ruby": "Valsqotch",
+    "artist": "owl＊tree feat.chi＊tree",
+    "category": "maimai",
+    "type": "dx",
+    "version": "でらっくす PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/d394210103ee76c3.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 13.0,
+      "master": 14.7,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Regulus",
+    "ruby": "Regulus",
+    "artist": "お月さま交響曲",
+    "category": "maimai",
+    "type": "dx",
+    "version": "Splash",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/f340a4081d9c66d7.png",
+    "constants": {
+      "basic": 5.0,
+      "advanced": null,
+      "expert": 12.5,
+      "master": 14.7,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Lia=Fail",
+    "ruby": "Lia=Fail",
+    "artist": "Team Grimoire",
+    "category": "maimai",
+    "type": "dx",
+    "version": "UNiVERSE",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/0c326d43294255a7.png",
+    "constants": {
+      "basic": 5.0,
+      "advanced": 9.0,
+      "expert": 12.8,
+      "master": 14.7,
+      "remaster": null
+    }
+  },
+  {
+    "title": "GIGANTØMAKHIA",
+    "ruby": "GIGANTØMAKHIA",
+    "artist": "BlackYooh vs. siromaru",
+    "category": "maimai",
+    "type": "dx",
+    "version": "UNiVERSE",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/fed702195b5af0e7.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 13.0,
+      "master": 14.7,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Metamorphosism",
+    "ruby": "Metamorphosism",
+    "artist": "削除",
+    "category": "maimai",
+    "type": "dx",
+    "version": "UNiVERSE PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/d02540b6cedfa362.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": 8.0,
+      "expert": 12.8,
+      "master": 14.7,
+      "remaster": null
+    }
+  },
+  {
+    "title": "康莊大道",
+    "ruby": "ひかりにてらされるおおみち",
+    "artist": "Spiegel vs Yukino",
+    "category": "maimai",
+    "type": "dx",
+    "version": "FESTiVAL",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/d7aa8fbe05bb911e.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": 8.7,
+      "expert": 13.2,
+      "master": 14.7,
+      "remaster": null
+    }
+  },
+  {
+    "title": "LAMIA",
+    "ruby": "LAMIA",
+    "artist": "BlackY",
+    "category": "ongeki-chunithm",
+    "type": "dx",
+    "version": "FESTiVAL PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/0cde431203c0df1c.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": 8.0,
+      "expert": 13.0,
+      "master": 14.7,
+      "remaster": null
+    }
+  },
+  {
+    "title": "KHYMΞXΛ",
+    "ruby": "KHYMΞXΛ",
+    "artist": "のらねこさい feat.ricono",
+    "category": "maimai",
+    "type": "dx",
+    "version": "BUDDiES",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/474425ed8b75f482.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": 8.7,
+      "expert": 12.9,
+      "master": 14.7,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Apollo",
+    "ruby": "Apollo",
+    "artist": "TJ.hangneil",
+    "category": "ongeki-chunithm",
+    "type": "dx",
+    "version": "BUDDiES",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/2b46dc47f1fe3d6d.png",
+    "constants": {
+      "basic": 7.0,
+      "advanced": null,
+      "expert": 13.0,
+      "master": 14.7,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Re:Unknown X",
+    "ruby": "Re:Unknown X",
+    "artist": "まらしぃ",
+    "category": "touhou-project",
+    "type": "dx",
+    "version": "BUDDiES PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/0847c38d2a623e99.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": 9.0,
+      "expert": 12.5,
+      "master": 14.7,
+      "remaster": null
+    }
+  },
+  {
+    "title": "ATLAS RUSH",
+    "ruby": "ATLAS RUSH",
+    "artist": "kanone",
+    "category": "maimai",
+    "type": "dx",
+    "version": "PRiSM PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/499800c520a31d54.png",
+    "constants": {
+      "basic": 5.0,
+      "advanced": null,
+      "expert": 12.6,
+      "master": 14.7,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Sky Trails",
+    "ruby": "Sky Trails",
+    "artist": "La prière",
+    "category": "maimai",
+    "type": "dx",
+    "version": "CiRCLE",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/17afc6f7c4af0a9e.png",
+    "constants": {
+      "basic": 5.0,
+      "advanced": 8.0,
+      "expert": 12.8,
+      "master": 14.7,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Break The Speakers",
+    "ruby": "Break The Speakers",
+    "artist": "DJ Myosuke",
+    "category": "maimai",
+    "type": "dx",
+    "version": "CiRCLE PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/cd7cdd7115f1ff5f.png",
+    "constants": {
+      "basic": 5.0,
+      "advanced": null,
+      "expert": 12.9,
+      "master": 14.7,
+      "remaster": null
+    }
+  },
+  {
+    "title": "ANiMA",
+    "ruby": "ANiMA",
+    "artist": "xi",
+    "category": "game-variety",
+    "type": "dx",
+    "version": "CiRCLE PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/d51e7f189023c7e0.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 12.9,
+      "master": 14.7,
+      "remaster": null
+    }
+  },
+  {
+    "title": "源平大戦絵巻テーマソング",
+    "ruby": "げんぺいたいせんえまきテーマソング",
+    "artist": "新小田夢童 ＆ キラ★ロッソ",
+    "category": "game-variety",
+    "type": "std",
+    "version": "maimai",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/ad6ef476a7500798.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 10.7,
+      "master": 12.8,
+      "remaster": 14.6
+    }
+  },
+  {
+    "title": "ジングルベル",
+    "ruby": "じんぐるべる",
+    "artist": "SEGA Sound Unit [H.]",
+    "category": "maimai",
+    "type": "dx",
+    "version": "FESTiVAL",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/5c0567c39670fbf4.png",
+    "constants": {
+      "basic": 5.0,
+      "advanced": null,
+      "expert": 10.8,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Fragrance",
+    "ruby": "Fragrance",
+    "artist": "Tsukasa(Arte Refact)",
+    "category": "maimai",
+    "type": "std",
+    "version": "maimai PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/2bb3f7cff734ce6a.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 12.7,
+      "master": 14.2,
+      "remaster": 14.6
+    }
+  },
+  {
+    "title": "Prophesy One",
+    "ruby": "Prophesy One",
+    "artist": "vox2（小野秀幸）",
+    "category": "maimai",
+    "type": "std",
+    "version": "PiNK PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/b1db65900e40e9b0.png",
+    "constants": {
+      "basic": null,
+      "advanced": null,
+      "expert": 12.4,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Credits",
+    "ruby": "Credits",
+    "artist": "Frums",
+    "category": "game-variety",
+    "type": "std",
+    "version": "MiLK",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/2204bfb20e3e2e1d.png",
+    "constants": {
+      "basic": 5.0,
+      "advanced": 9.0,
+      "expert": 13.3,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "TiamaT:F minor",
+    "ruby": "TiamaT:F minor",
+    "artist": "Team Grimoire",
+    "category": "ongeki-chunithm",
+    "type": "std",
+    "version": "FiNALE",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/272a82ac2151f9a2.png",
+    "constants": {
+      "basic": 7.0,
+      "advanced": 10.3,
+      "expert": 13.1,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Titania",
+    "ruby": "Titania",
+    "artist": "xi",
+    "category": "ongeki-chunithm",
+    "type": "dx",
+    "version": "でらっくす",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/a6dce38910fd32d7.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": 8.0,
+      "expert": 12.5,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "渦状銀河のシンフォニエッタ",
+    "ruby": "うずじょうぎんがのシンフォニエッタ",
+    "artist": "山本真央樹",
+    "category": "maimai",
+    "type": "dx",
+    "version": "でらっくす PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/a9be993d5f552289.png",
+    "constants": {
+      "basic": 3.0,
+      "advanced": null,
+      "expert": 11.8,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "BREaK! BREaK! BREaK!",
+    "ruby": "BREaK! BREaK! BREaK!",
+    "artist": "HiTECH NINJA vs Cranky",
+    "category": "maimai",
+    "type": "dx",
+    "version": "Splash PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/91737a421106e7ca.png",
+    "constants": {
+      "basic": 5.0,
+      "advanced": null,
+      "expert": 12.8,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "AMABIE",
+    "ruby": "AMABIE",
+    "artist": "OSTER project",
+    "category": "maimai",
+    "type": "dx",
+    "version": "Splash PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/761e10bd436f83cf.png",
+    "constants": {
+      "basic": 5.0,
+      "advanced": null,
+      "expert": 12.4,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "脳天直撃",
+    "ruby": "のうてんちょくげき",
+    "artist": "黒沢ダイスケ VS 穴山大輔",
+    "category": "ongeki-chunithm",
+    "type": "dx",
+    "version": "UNiVERSE",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/1a7893a226f7befc.png",
+    "constants": {
+      "basic": 5.0,
+      "advanced": null,
+      "expert": 12.9,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "BLACK SWAN",
+    "ruby": "BLACK SWAN",
+    "artist": "ぺのれり",
+    "category": "maimai",
+    "type": "dx",
+    "version": "UNiVERSE",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/58d3f2aeccf6a09d.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 12.7,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Yorugao",
+    "ruby": "Yorugao",
+    "artist": "An & Ryunosuke Kudo",
+    "category": "maimai",
+    "type": "dx",
+    "version": "UNiVERSE",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/ffa8c12106a9ee96.png",
+    "constants": {
+      "basic": 5.0,
+      "advanced": 8.0,
+      "expert": 12.2,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "mystique as iris",
+    "ruby": "mystique as iris",
+    "artist": "かねこちはる",
+    "category": "maimai",
+    "type": "dx",
+    "version": "FESTiVAL",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/077872054fe8552d.png",
+    "constants": {
+      "basic": 5.0,
+      "advanced": 9.7,
+      "expert": 12.8,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "ViRTUS",
+    "ruby": "ViRTUS",
+    "artist": "Hiro",
+    "category": "maimai",
+    "type": "dx",
+    "version": "FESTiVAL",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/5d89c120d8c41d6a.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": 9.0,
+      "expert": 13.2,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "VERTeX (rintaro soma deconstructed remix)",
+    "ruby": "VERTeX (rintaro soma deconstructed remix)",
+    "artist": "Hiro／rintaro soma",
+    "category": "maimai",
+    "type": "dx",
+    "version": "FESTiVAL PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/fad2062de9b868ae.png",
+    "constants": {
+      "basic": 5.0,
+      "advanced": null,
+      "expert": 12.8,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "超熊猫的周遊記（ワンダーパンダートラベラー）",
+    "ruby": "わんだーぱんだーとらべらー",
+    "artist": "FANTAGIRAFF",
+    "category": "maimai",
+    "type": "dx",
+    "version": "FESTiVAL PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/ee5ed79e9849c1a6.png",
+    "constants": {
+      "basic": 4.0,
+      "advanced": 7.7,
+      "expert": 12.7,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "神威",
+    "ruby": "かむい",
+    "artist": "TJ.hangneil",
+    "category": "game-variety",
+    "type": "dx",
+    "version": "BUDDiES",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/1ca2b9f20e307c03.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": 8.7,
+      "expert": 12.8,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Λzure Vixen",
+    "ruby": "あずーるゔぃくせん",
+    "artist": "かめりあ",
+    "category": "ongeki-chunithm",
+    "type": "dx",
+    "version": "BUDDiES PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/52844a4b40958122.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": 8.0,
+      "expert": 13.2,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "IF:U",
+    "ruby": "IF:U",
+    "artist": "MisoilePunch♪",
+    "category": "maimai",
+    "type": "dx",
+    "version": "BUDDiES PLUS",
+    "jacket": "",
+    "constants": {
+      "basic": 6.0,
+      "advanced": 8.0,
+      "expert": 12.8,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Cryptarithm",
+    "ruby": "Cryptarithm",
+    "artist": "削除",
+    "category": "maimai",
+    "type": "dx",
+    "version": "PRiSM",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/cb40822c0f5a3ec1.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 13.0,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "雨露霜雪",
+    "ruby": "うろそうせつ",
+    "artist": "かねこちはる vs t+pazolite",
+    "category": "maimai",
+    "type": "dx",
+    "version": "PRiSM",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/2c80b1a894f03420.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": 9.0,
+      "expert": 13.5,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Åntinomiε",
+    "ruby": "Åntinomiε",
+    "artist": "ああ…翡翠茶漬け…",
+    "category": "maimai",
+    "type": "dx",
+    "version": "PRiSM PLUS",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/b232e4ac452ac306.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 12.8,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "Get U ♭ack",
+    "ruby": "Get U ♭ack",
+    "artist": "Ryo Fukuda",
+    "category": "maimai",
+    "type": "dx",
+    "version": "CiRCLE",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/6420ff4f7a622cd6.png",
+    "constants": {
+      "basic": 5.0,
+      "advanced": 8.7,
+      "expert": 12.9,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "ラストピースに祝福と栄光を",
+    "ruby": "らすとぴーすにしゅくふくとえいこうを",
+    "artist": "cosMo＠暴走P",
+    "category": "ongeki-chunithm",
+    "type": "dx",
+    "version": "CiRCLE",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/632ba87daeb2ced1.png",
+    "constants": {
+      "basic": 7.0,
+      "advanced": 9.0,
+      "expert": 12.9,
+      "master": 14.6,
+      "remaster": null
+    }
+  },
+  {
+    "title": "零號車輛",
+    "ruby": "りんはおちゅーりゃん",
+    "artist": "seatrus",
+    "category": "game-variety",
+    "type": "dx",
+    "version": "CiRCLE",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/5013b0405bb25bc3.png",
+    "constants": {
+      "basic": 6.0,
+      "advanced": null,
+      "expert": 12.8,
+      "master": 14.6,
+      "remaster": null
+    }
+  }
+]

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maimai 譜面定数一覧</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 onclick="location.reload()" style="cursor: pointer;">maimaiでらっくすCiRCLE<br>譜面定数リスト</h1>
+
+    <div class="controls">
+        <input type="text" id="searchBar" placeholder="曲名・アーティスト・読みで検索..." oninput="loadSongs()">
+        
+        <div class="filters-column">
+            <div class="filter-header">
+                Version:
+                <div>
+                    <span class="bulk-action" onclick="checkAll('versionFilters', true)">全選択</span>
+                    <span class="bulk-action" onclick="checkAll('versionFilters', false)">解除</span>
+                </div>
+            </div>
+            <div class="check-group" id="versionFilters">
+                <label><input type="checkbox" value="CiRCLE PLUS" checked onchange="loadSongs()"> CiRCLE+</label>
+                <label><input type="checkbox" value="CiRCLE" checked onchange="loadSongs()"> CiRCLE</label>
+                <label><input type="checkbox" value="PRiSM PLUS" checked onchange="loadSongs()"> PRiSM+</label>
+                <label><input type="checkbox" value="PRiSM" checked onchange="loadSongs()"> PRiSM</label>
+                <label><input type="checkbox" value="BUDDiES PLUS" checked onchange="loadSongs()"> BUDDiES+</label>
+                <label><input type="checkbox" value="BUDDiES" checked onchange="loadSongs()"> BUDDiES</label>
+                <label><input type="checkbox" value="FESTiVAL PLUS" checked onchange="loadSongs()"> FESTiVAL+</label>
+                <label><input type="checkbox" value="FESTiVAL" checked onchange="loadSongs()"> FESTiVAL</label>
+                <label><input type="checkbox" value="UNiVERSE PLUS" checked onchange="loadSongs()"> UNiVERSE+</label>
+                <label><input type="checkbox" value="UNiVERSE" checked onchange="loadSongs()"> UNiVERSE</label>
+                <label><input type="checkbox" value="Splash PLUS" checked onchange="loadSongs()"> Splash+</label>
+                <label><input type="checkbox" value="Splash" checked onchange="loadSongs()"> Splash</label>
+                <label><input type="checkbox" value="でらっくす PLUS" checked onchange="loadSongs()"> でらっくす+</label>
+                <label><input type="checkbox" value="でらっくす" checked onchange="loadSongs()"> でらっくす</label>
+                <label><input type="checkbox" value="FiNALE" checked onchange="loadSongs()"> FiNALE</label>
+                <label><input type="checkbox" value="MiLK PLUS" checked onchange="loadSongs()"> MiLK+</label>
+                <label><input type="checkbox" value="MiLK" checked onchange="loadSongs()"> MiLK</label>
+                <label><input type="checkbox" value="MURASAKi PLUS" checked onchange="loadSongs()"> MURASAKi+</label>
+                <label><input type="checkbox" value="MURASAKi" checked onchange="loadSongs()"> MURASAKi</label>
+                <label><input type="checkbox" value="PiNK PLUS" checked onchange="loadSongs()"> PiNK+</label>
+                <label><input type="checkbox" value="PiNK" checked onchange="loadSongs()"> PiNK</label>
+                <label><input type="checkbox" value="ORANGE PLUS" checked onchange="loadSongs()"> ORANGE+</label>
+                <label><input type="checkbox" value="ORANGE" checked onchange="loadSongs()"> ORANGE</label>
+                <label><input type="checkbox" value="GreeN PLUS" checked onchange="loadSongs()"> GreeN+</label>
+                <label><input type="checkbox" value="GreeN" checked onchange="loadSongs()"> GreeN</label>
+                <label><input type="checkbox" value="maimai PLUS" checked onchange="loadSongs()"> PLUS</label>
+                <label><input type="checkbox" value="maimai" checked onchange="loadSongs()"> maimai</label>
+            </div>
+        </div>
+
+        <div class="bottom-row">
+            <div class="diff-tabs" id="diffTabs">
+                <button class="tab-btn active" data-diff="mas" onclick="changeDiff('mas')">MASTER</button>
+                <button class="tab-btn" data-diff="rem" onclick="changeDiff('rem')">Re:MASTER</button>
+                <button class="tab-btn" data-diff="exp" onclick="changeDiff('exp')">EXPERT</button>
+                <button class="tab-btn" data-diff="adv" onclick="changeDiff('adv')">ADVANCED</button>
+                <button class="tab-btn" data-diff="bas" onclick="changeDiff('bas')">BASIC</button>
+            </div>
+
+            <div class="sort-group">
+                <select id="sortOrder" onchange="loadSongs()">
+                    <option value="version_desc">バージョン (新→旧)</option>
+                    <option value="version_asc">バージョン (旧→新)</option>
+                    <option value="desc" selected>定数 降順</option>
+                    <option value="asc">定数 昇順</option>
+                    <option value="title_asc">曲名順 (あ→ん)</option>
+                    <option value="title_desc">曲名 逆順 (ん→あ)</option>
+                </select>
+            </div>
+            <span id="count" class="song-count"></span>
+        </div>
+    </div>
+
+    <div id="songList" class="grid">読み込み中...</div>
+
+    <div id="backToTop" class="back-to-top" onclick="scrollToTop()">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+            <path fill="currentColor" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path>
+        </svg>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
