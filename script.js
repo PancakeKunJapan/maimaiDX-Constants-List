@@ -55,8 +55,8 @@ function loadSongs() {
         if (ver === "DX PLUS") ver = "でらっくす PLUS";
 
         const matchSearch = s.title.toLowerCase().includes(query) || 
-                           (s.artist && s.artist.toLowerCase().includes(query)) ||
-                           (s.reading && s.reading.toLowerCase().includes(query));
+                            (s.artist && s.artist.toLowerCase().includes(query)) ||
+                            (s.reading && s.reading.toLowerCase().includes(query));
         const matchVer = selectedVersions.includes(ver);
         return matchSearch && matchVer;
     });
@@ -87,14 +87,15 @@ function render(songs) {
         const isNull = val === null || val === undefined;
         const displayVal = isNull ? '-' : Number(val).toFixed(1);
 
+        // 背景画像用の変数をstyle属性で渡す修正を追加
         return `
-            <div class="song-card cat-${song.category}">
+            <div class="song-card cat-${song.category}" style="--bg-img: url('${song.jacket}')">
                 <div class="song-jacket">
-                    <img src="${song.jacket}" loading="lazy" onerror="this.src='https://placehold.jp/150x150?text=No+Jacket'">
+                    <img src="${song.jacket}" loading="lazy" onerror="this.src='https://placehold.jp/150x150?text=No+Image'">
                 </div>
                 <div class="song-info">
                     <div class="title-row">
-                        <span class="song-type type-${song.type}">${song.type === 'dx' ? 'DX' : 'Std'}</span>
+                        <span class="song-type type-${song.type}">${song.type === 'dx' ? 'DX' : 'STD'}</span>
                         <div class="song-title">${song.title}</div>
                     </div>
                     <div class="song-artist">${song.artist || ''}</div>
@@ -114,6 +115,7 @@ function render(songs) {
 window.onscroll = () => {
     document.getElementById('backToTop').style.display = window.scrollY > 500 ? 'flex' : 'none';
 };
+
 function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }

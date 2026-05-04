@@ -18,12 +18,18 @@ h1 { text-align: center; font-size: 2rem; margin: 20px 0; color: #fff; transitio
 h1:hover { color: var(--accent); text-shadow: 0 0 10px var(--accent); }
 
 /* --- 説明欄 ---*/
-.list-info {
-    background: #161925; padding: 25px; border-radius: 16px; margin-bottom: 25px;
-}
-#list-info-title {
-    font-size: 1.25rem; margin: 20px 0; color: #fff;
-}
+.list-info { background: #161925; padding: 25px; border-radius: 16px; margin-bottom: 25px; }
+#list-info-title { font-size: 1.25rem; margin: 20px 0; color: #fff; }
+
+#red-txt { font-weight: bold; background-color: var(--cat-maimai); padding: 2px; border-radius: 7px; }
+#blue-txt { font-weight: bold; background-color: var(--cat-ongeki); padding: 2px; border-radius: 7px; }
+#green-txt { font-weight: bold; background-color: var(--cat-game); padding: 2px; border-radius: 7px; }
+#water-blue-txt { font-weight: bold; background-color: var(--cat-niconico); padding: 2px; border-radius: 7px; }
+#purple-txt { font-weight: bold; background-color: var(--cat-touhou); padding: 2px; border-radius: 7px; }
+#yellow-txt { font-weight: bold; background-color: var(--cat-pops); padding: 2px; border-radius: 7px; }
+
+#accent { font-weight: bold; color: var(--accent); padding: 2px; border-radius: 7px; }
+
 
 /* --- コントロールパネル --- */
 .controls { 
@@ -37,6 +43,8 @@ h1:hover { color: var(--accent); text-shadow: 0 0 10px var(--accent); }
 }
 
 /* --- バージョン選択 --- */
+#v-fil { color: var(--accent); font-weight: bold; margin-right: 8px; }
+
 .check-group { 
     display: flex; flex-wrap: wrap; gap: 8px; 
     background: rgba(0,0,0,0.2); padding: 12px; border-radius: 10px; 
@@ -83,8 +91,23 @@ h1:hover { color: var(--accent); text-shadow: 0 0 10px var(--accent); }
 .song-card { 
     background: var(--card-bg); border-radius: 12px; position: relative; overflow: hidden; 
     transition: 0.3s; border-left: 6px solid #555;
+    z-index: 1;
 }
-.song-card:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,0.6); }
+
+/* 背面にジャケット画像を薄く映し出す */
+.song-card::before {
+    content: "";
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-image: var(--bg-img); /* JSから読み込み */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.18; /* 映り込みの濃さ */
+    filter: blur(4px); /* ぼかし */
+    z-index: -1;
+}
+
+.song-card:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,0.6); background: #232736; }
 
 /* 曲名を太く強調 */
 .song-title { 
@@ -103,7 +126,7 @@ h1:hover { color: var(--accent); text-shadow: 0 0 10px var(--accent); }
 /* 1. カードモード（両方表示） */
 .grid.grid-mode { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 15px; }
 .grid-mode .song-card { display: flex; gap: 15px; padding: 15px; align-items: center; }
-.grid-mode .song-jacket img { width: 90px; height: 90px; border-radius: 8px; object-fit: cover; }
+.grid-mode .song-jacket img { width: 90px; height: 90px; border-radius: 8px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
 .grid-mode .song-info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
 .grid-mode .title-row { display: flex; align-items: center; gap: 8px; overflow: hidden; }
 
@@ -135,13 +158,13 @@ h1:hover { color: var(--accent); text-shadow: 0 0 10px var(--accent); }
 .diff-box.mas { background: var(--mas); }
 .diff-box.rem { background: var(--rem); color: #4a004a; }
 
-/* カテゴリ別配色：指定カラー反映 */
-.song-card.cat-maimai { border-left-color: var(--cat-maimai) !important; background: linear-gradient(90deg, rgba(255,74,74,0.12) 0%, var(--card-bg) 50%); }
-.song-card.cat-pops-anime { border-left-color: var(--cat-pops) !important; background: linear-gradient(90deg, rgba(255,206,48,0.12) 0%, var(--card-bg) 50%); }
-.song-card.cat-niconico { border-left-color: var(--cat-niconico) !important; background: linear-gradient(90deg, rgba(0,210,255,0.12) 0%, var(--card-bg) 50%); }
-.song-card.cat-touhou-project { border-left-color: var(--cat-touhou) !important; background: linear-gradient(90deg, rgba(159,80,243,0.12) 0%, var(--card-bg) 50%); }
-.song-card.cat-game-variety { border-left-color: var(--cat-game) !important; background: linear-gradient(90deg, rgba(111,225,99,0.12) 0%, var(--card-bg) 50%); }
-.song-card.cat-ongeki-chunithm { border-left-color: var(--cat-ongeki) !important; background: linear-gradient(90deg, rgba(48,94,255,0.12) 0%, var(--card-bg) 50%); }
+/* カテゴリ別配色：指定カラー反映（ボーダーのみ） */
+.song-card.cat-maimai { border-left-color: var(--cat-maimai) !important; }
+.song-card.cat-pops-anime { border-left-color: var(--cat-pops) !important; }
+.song-card.cat-niconico { border-left-color: var(--cat-niconico) !important; }
+.song-card.cat-touhou-project { border-left-color: var(--cat-touhou) !important; }
+.song-card.cat-game-variety { border-left-color: var(--cat-game) !important; }
+.song-card.cat-ongeki-chunithm { border-left-color: var(--cat-ongeki) !important; }
 
 /* 共通パーツ */
 .song-type { font-size: 0.6rem; padding: 2px 5px; border-radius: 4px; font-weight: bold; flex-shrink: 0; box-shadow: 0 2px 4px rgba(0,0,0,0.5); }
