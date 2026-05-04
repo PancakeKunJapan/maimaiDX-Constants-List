@@ -9,9 +9,16 @@
 <body>
 
     <h1 onclick="location.reload()" style="cursor: pointer;">maimai 譜面定数リスト</h1>
-
+    <div class="list-info">
+        <h2 id="list-info-title">定数表のみかた･つかいかた</h2>
+        <div class="LookingInfo">
+            <p>曲名･アーティストで検索できます</p>
+            <p>Version Filterでバージョンを絞り込みできます<br>全選択･全解除のボタンで一括選択ができます</p>
+            <p>MASTER･Re:MASTER･EXPERT･ADVANCED･BASICのボタンを押せばそれぞれの難易度ごとの定数を表示できます</p>
+        </div>
+    </div>
     <div class="controls">
-        <input type="text" id="searchBar" placeholder="曲名・アーティスト・読みで検索..." oninput="loadSongs()">
+        <input type="text" id="searchBar" placeholder="曲名・アーティストで検索..." oninput="loadSongs()">
         
         <div class="filters-column">
             <div class="filter-header">
@@ -55,9 +62,9 @@
         <div class="bottom-row">
             <!-- 表示モード -->
             <div class="view-mode-tabs">
-                <button class="view-btn active" id="mode-grid" onclick="setViewMode('grid')">カード</button>
-                <button class="view-btn" id="mode-jacket" onclick="setViewMode('jacket')">ジャケットのみ</button>
-                <button class="view-btn" id="mode-list" onclick="setViewMode('list')">名前のみ</button>
+                <button class="view-btn active" id="mode-grid" onclick="setViewMode('grid')">ジャケット+曲名</button>
+                <button class="view-btn" id="mode-jacket" onclick="setViewMode('jacket')">ジャケット</button>
+                <button class="view-btn" id="mode-list" onclick="setViewMode('list')">曲名</button>
             </div>
 
             <!-- 難易度選択 -->
