@@ -12,21 +12,25 @@
     <div class="list-info">
         <h2 id="list-info-title">定数表のみかた･つかいかた</h2>
         <div class="LookingInfo">
-            <p>曲名･アーティストで検索できます</p>
-            <p>Version Filterでバージョンを絞り込みできます<br>全選択･全解除のボタンで一括選択ができます</p>
-            <p><span style="font-weight: bold; background-color: var(--mas); padding: 2px; border-radius: 7px;">MASTER</span>･<span style="font-weight: bold; color: #4a004a; background-color: var(--rem); padding: 2px; border-radius: 7px;">Re:MASTER</span>･<span style="font-weight: bold; background-color: var(--exp); padding: 2px; border-radius: 7px;">EXPERT</span>･<span style="font-weight: bold; background-color: var(--adv); padding: 2px; border-radius: 7px;">ADVANCED</span>･<span style="font-weight: bold; background-color: var(--bas); padding: 2px; border-radius: 7px;">BASIC</span>のボタンを押せばそれぞれの難易度ごとの定数を表示できます</p>
-            <p><span id="accent">SORT</span>ではバージョン順､定数順､曲名順に並び替えできます</p>
-            <p>ジャケットの右には譜面タイプ(DX譜面かSTD譜面か)､曲名､アーティスト､そして下の難易度の色の枠に書かれている00.0の数字が定数です</p>
-            <p>左のボーダーはジャンルを表しています<br>オリジナル→<span id="red-txt">赤色</span> ゲキチュウ→<span id="blue-txt">青色</span> ゲーム&バラ→<span id="green-txt">緑色</span> nico&ボカロ→<span id="water-blue-txt">水色</span> POPS&アニメ→<span id="yellow-txt">黄色</span> 東方→<span id="purple-txt">紫色</span></p>
-            
+            <p>･楽曲は曲名･アーティストで検索できます</p>
+            <p>･<span style="color: var(--accent); font-weight: bold;">Version Filter</span>ではバージョンを絞り込みできます(全選択･全解除のボタンで一括選択ができます)</p>
+            <p>･<span style="font-size: 0.8rem; color: var(--accent); font-weight: bold;">表示モード</span>ではそれぞれジャケット+曲名･ジャケットのみ･曲名のみと表示モードを変更できます</p>
+            <p>･<span style="font-size: 0.8rem; color: var(--accent); font-weight: bold;">表示サイズ</span>ではジャケットのサイズを変更できます(表示モードがジャケット+曲名･ジャケットのみの場合)</p>
+            <p>･<span style="font-weight: bold; background-color: var(--mas); padding: 2px; border-radius: 7px;">MASTER</span>･<span style="font-weight: bold; color: #4a004a; background-color: var(--rem); padding: 2px; border-radius: 7px;">Re:MASTER</span>･<span style="font-weight: bold; background-color: var(--exp); padding: 2px; border-radius: 7px;">EXPERT</span>･<span style="font-weight: bold; background-color: var(--adv); padding: 2px; border-radius: 7px;">ADVANCED</span>･<span style="font-weight: bold; background-color: var(--bas); padding: 2px; border-radius: 7px;">BASIC</span>のボタンを押せばそれぞれの難易度ごとの定数を表示できます</p>
+            <p>･<span style="font-size: 0.8rem; color: var(--accent); font-weight: bold;">SORT</span>ではバージョン順､定数順､曲名順に並び替えできます</p>
+            <p>･カードの左上には譜面タイプ(DX譜面かSTD譜面か)､曲名､アーティスト､そして下の難易度の色の枠に書かれている00.0の数字が定数です</p>
+            <p>･左のボーダー(ジャケットのみモードの時は下)はジャンルを表しています<br>オリジナル→<span id="red-txt">赤色</span> ゲキチュウ→<span id="blue-txt">青色</span> ゲーム&バラ→<span id="green-txt">緑色</span> nico&ボカロ→<span id="water-blue-txt">水色</span> POPS&アニメ→<span id="yellow-txt">黄色</span> 東方→<span id="purple-txt">紫色</span></p>
+            <p>*まだ最高難易度が14+の楽曲までしか対応していません</p>
+            <p>ほかになにかお困りの点がありましたら､Xアカウント@Pancake_maimaiまでDMお願いします</p>
         </div>
     </div>
+    
     <div class="controls">
         <input type="text" id="searchBar" placeholder="曲名・アーティストで検索..." oninput="loadSongs()">
         
         <div class="filters-column">
             <div class="filter-header">
-                <span id="v-fil">Version Filter</span>
+                <span>Version Filter</span>
                 <div class="bulk-btns">
                     <button class="mini-btn" onclick="checkAll('versionFilters', true)">全選択</button>
                     <button class="mini-btn" onclick="checkAll('versionFilters', false)">全解除</button>
@@ -64,14 +68,19 @@
         </div>
 
         <div class="bottom-row">
-            <!-- 表示モード -->
             <div class="view-mode-tabs">
+                <span style="font-size: 0.8rem; color: var(--accent); font-weight: bold;">表示モード</span>
                 <button class="view-btn active" id="mode-grid" onclick="setViewMode('grid')">ジャケット+曲名</button>
                 <button class="view-btn" id="mode-jacket" onclick="setViewMode('jacket')">ジャケット</button>
                 <button class="view-btn" id="mode-list" onclick="setViewMode('list')">曲名</button>
             </div>
 
-            <!-- 難易度選択 -->
+            <div id="size-control" style="display: flex; align-items: center; gap: 10px;">
+                <span style="font-size: 0.8rem; color: var(--accent); font-weight: bold;">表示サイズ</span>
+                <button class="mini-btn" onclick="changeSize(-20)">－ 小さく</button>
+                <button class="mini-btn" onclick="changeSize(20)">＋ 大きく</button>
+            </div>
+
             <div class="diff-tabs" id="diffTabs">
                 <button class="tab-btn active" data-diff="mas" onclick="changeDiff('mas')">MASTER</button>
                 <button class="tab-btn" data-diff="rem" onclick="changeDiff('rem')">Re:MASTER</button>
@@ -80,7 +89,6 @@
                 <button class="tab-btn" data-diff="bas" onclick="changeDiff('bas')">BASIC</button>
             </div>
 
-            <!-- 並び替えと件数 -->
             <div class="sort-and-count">
                 <div class="sort-group">
                     <select id="sortOrder" onchange="loadSongs()">
@@ -93,8 +101,6 @@
                 </div>
                 <span id="count" class="song-count"></span>
             </div>
-        </div>
-            <span id="count" class="song-count"></span>
         </div>
     </div>
 

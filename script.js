@@ -1,7 +1,9 @@
 let currentDiff = 'mas'; 
 let currentViewMode = 'grid';
 let allSongs = [];
+let jacketSize = 110; 
 
+// 並び替え用のバージョン順定義
 const VERSION_ORDER = [
     "maimai", "maimai PLUS", "GreeN", "GreeN PLUS", "ORANGE", "ORANGE PLUS",
     "PiNK", "PiNK PLUS", "MURASAKi", "MURASAKi PLUS", "MiLK", "MiLK PLUS",
@@ -22,9 +24,13 @@ async function init() {
     }
 }
 
+// ★全選択・全解除ボタン用の関数
 function checkAll(groupId, state) {
-    document.querySelectorAll(`#${groupId} input`).forEach(cb => cb.checked = state);
-    loadSongs();
+    const checkboxes = document.querySelectorAll(`#${groupId} input[type="checkbox"]`);
+    checkboxes.forEach(cb => {
+        cb.checked = state;
+    });
+    loadSongs(); // 状態を変えた後に再描画
 }
 
 function setViewMode(mode) {
@@ -32,7 +38,16 @@ function setViewMode(mode) {
     document.querySelectorAll('.view-btn').forEach(btn => btn.classList.remove('active'));
     document.getElementById(`mode-${mode}`).classList.add('active');
     document.getElementById('songList').className = `grid ${mode}-mode`;
+    
+    const sizeControl = document.getElementById('size-control');
+    if (sizeControl) sizeControl.style.display = (mode === 'list') ? 'none' : 'flex';
+    
     loadSongs();
+}
+
+function changeSize(amount) {
+    jacketSize = Math.max(60, Math.min(220, jacketSize + amount));
+    document.documentElement.style.setProperty('--jacket-size', `${jacketSize}px`);
 }
 
 function changeDiff(diff) {
@@ -50,17 +65,17 @@ function loadSongs() {
     const keyMap = { bas: 'basic', adv: 'advanced', exp: 'expert', mas: 'master', rem: 'remaster' };
 
     let filtered = allSongs.filter(s => {
+        // バージョン名の正規化（ songs.json の形式に合わせる）
         let ver = s.version;
         if (ver === "DX") ver = "でらっくす";
         if (ver === "DX PLUS") ver = "でらっくす PLUS";
-
-        const matchSearch = s.title.toLowerCase().includes(query) || 
-                            (s.artist && s.artist.toLowerCase().includes(query)) ||
-                            (s.reading && s.reading.toLowerCase().includes(query));
+        
+        const matchSearch = s.title.toLowerCase().includes(query) || (s.artist && s.artist.toLowerCase().includes(query));
         const matchVer = selectedVersions.includes(ver);
         return matchSearch && matchVer;
     });
 
+    // ソート処理
     filtered.sort((a, b) => {
         if (sortOrder === "title_asc") return a.title.localeCompare(b.title, 'ja');
         if (sortOrder.startsWith("version")) {
@@ -80,44 +95,51 @@ function loadSongs() {
 function render(songs) {
     const container = document.getElementById('songList');
     const keyMap = { bas: 'basic', adv: 'advanced', exp: 'expert', mas: 'master', rem: 'remaster' };
-    const fullNameMap = { bas: 'BAS', adv: 'ADV', exp: 'EXP', mas: 'MAS', rem: 'Re:M' };
 
     container.innerHTML = songs.map(song => {
         const val = song.constants[keyMap[currentDiff]];
-        const isNull = val === null || val === undefined;
-        const displayVal = isNull ? '-' : Number(val).toFixed(1);
+        const displayVal = (val === null || val === undefined) ? '-' : Number(val).toFixed(1);
 
-        // 背景画像用の変数をstyle属性で渡す修正を追加
         return `
             <div class="song-card cat-${song.category}" style="--bg-img: url('${song.jacket}')">
+                <!-- カード・ジャケットモード用の要素 -->
                 <div class="song-jacket">
-                    <img src="${song.jacket}" loading="lazy" onerror="this.src='https://placehold.jp/150x150?text=No+Image'">
-                </div>
-                <div class="song-info">
                     <div class="title-row">
                         <span class="song-type type-${song.type}">${song.type === 'dx' ? 'DX' : 'STD'}</span>
-                        <div class="song-title">${song.title}</div>
                     </div>
-                    <div class="song-artist">${song.artist || ''}</div>
-                    <div class="difficulty-grid">
-                        <div class="diff-box ${currentDiff}">
-                            <span>${fullNameMap[currentDiff]}</span>
-                            <strong>${displayVal}</strong>
+                    <img src="${song.jacket}" loading="lazy">
+                </div>
+
+                <div class="song-info">
+                    <!-- リストモード用レイアウト: タイプ 曲名 アーティスト バージョン -->
+                    <div class="list-layout-wrap">
+                        <span class="song-type type-${song.type}">${song.type === 'dx' ? 'DX' : 'STD'}</span>
+                        <div class="song-title-group">
+                            <div class="song-title">${song.title}</div>
+                            <div class="song-artist">${song.artist || ''}</div>
                         </div>
+                        <div class="song-version">${song.version}</div>
+                    </div>
+
+                    <!-- 定数表示ボックス -->
+                    <div class="diff-box ${currentDiff}">
+                        <strong>${displayVal}</strong>
                     </div>
                 </div>
             </div>
         `;
     }).join('');
+    
     document.getElementById('count').textContent = `${songs.length} 件`;
 }
-
-window.onscroll = () => {
-    document.getElementById('backToTop').style.display = window.scrollY > 500 ? 'flex' : 'none';
-};
 
 function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
+
+window.onscroll = () => {
+    const btn = document.getElementById('backToTop');
+    if (btn) btn.style.display = window.scrollY > 500 ? 'flex' : 'none';
+};
 
 document.addEventListener('DOMContentLoaded', init);
