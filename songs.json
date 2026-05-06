@@ -1310,5 +1310,21 @@
       "master": 14.6,
       "remaster": null
     }
+  },
+  {
+    "title": "Beat of getting entangled",
+    "ruby": "Beat of getting entangled",
+    "artist": "Shoichiro Hirata",
+    "category": "maimai",
+    "type": "std",
+    "version": "GreeN",
+    "jacket": "https://maimaidx.jp/maimai-mobile/img/Music/1302aa1b571e7ef0.png",
+    "constants": {
+      "basic": null,
+      "advanced": null,
+      "expert": null,
+      "master": 13.8,
+      "remaster": 14.5
+    }
   }
 ]
